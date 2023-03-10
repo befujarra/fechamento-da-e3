@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fechamento E3</title>
+  </head>
+  <body>
+    <h1 class="tittle-page">
+      Fechamento de <br />
+      produção E3
+    </h1>
+
+    <nav class="nav">
+      <h3>MÁQUINA M1</h3>
+      <a href="index.html">PAGINA INICIAL</a>
+    </nav>
+    <main>
+      <h2 class="h2-form">Insira os dados:</h2>
+      <section class="content-form">
+        <form class="form">
+          <br /><br />
+          <label for="batidas" class="label-form">Total de Batidas:</label
+          ><br /><br />
+          <input
+            type="number"
+            id="batidas"
+            name="batidas"
+            placeholder="EX:32000"
+            required
+          /><br /><br />
+          <label for="descarte" class="label-form"
+            >Peso total de descartes:</label
+          ><br /><br />
+          <input
+            type="number"
+            id="descarte"
+            name="descarte"
+            placeholder="EX:9000"
+            required
+          /><br /><br />
+          <p id="resultado">Resultado</p>
+          <div>
+            <button id="meuBotao" class="button-form">Fazer Fechamento</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="index-m1.js"></script>
+    <footer>
+      <p>by vF</p>
+    </footer>
+  </body>
+</html>
